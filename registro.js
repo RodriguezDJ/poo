@@ -6,13 +6,10 @@ class Alumno{
     }
 }
 
+
 class Ui{
     addAlumno() {
-        <div class="cart-center mb-4">
-            <div  class= "card-body">
-
-            </div>
-        </div>
+   
         
 
     }
@@ -39,5 +36,7 @@ document.getElementById('Alumno')
      e.preventDefault();
      });
 DocumentTimeline.getElementById('Alumno').addEventListener('click',function(){
-    alert('bienbenidp')
+    alert('bienbenid'(this.nombre))
 });
+
+console.log(Alumno);
